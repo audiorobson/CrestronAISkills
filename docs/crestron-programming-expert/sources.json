@@ -1,0 +1,97 @@
+{
+  "schema_version": "0.1.0",
+  "updated": "2026-10-01",
+  "sources": [
+    {
+      "id": "crestron-ai-skills",
+      "name": "CrestronAISkills",
+      "url": "https://github.com/Crestron/CrestronAISkills",
+      "publisher": "Crestron",
+      "source_type": "official-repo",
+      "confidence": "authoritative",
+      "platforms": ["cross-platform"],
+      "languages": ["ai-skill"],
+      "topics": ["skill-schema", "governance", "validation"],
+      "license": "MIT",
+      "reuse_mode": "selective-code-ingestion"
+    },
+    {
+      "id": "crestron-ch5-component-library",
+      "name": "CH5ComponentLibrary",
+      "url": "https://github.com/Crestron/CH5ComponentLibrary",
+      "publisher": "Crestron",
+      "source_type": "official-repo",
+      "confidence": "authoritative",
+      "platforms": ["touchpanel-ui"],
+      "languages": ["ch5", "typescript", "javascript"],
+      "topics": ["ch5", "components", "ui"],
+      "license": "non-standard-or-unconfirmed",
+      "reuse_mode": "reference-only"
+    },
+    {
+      "id": "crestron-ch5-example-projects",
+      "name": "CH5ExampleProjects",
+      "url": "https://github.com/Crestron/CH5ExampleProjects",
+      "publisher": "Crestron",
+      "source_type": "official-repo",
+      "confidence": "authoritative",
+      "platforms": ["touchpanel-ui"],
+      "languages": ["ch5", "typescript", "react", "angular"],
+      "topics": ["ch5", "examples", "ui"],
+      "license": "not-detected",
+      "reuse_mode": "reference-only"
+    },
+    {
+      "id": "cti-tim-csharp-examples",
+      "name": "CrestronCSharpExamples",
+      "url": "https://github.com/CTI-Tim/CrestronCSharpExamples",
+      "publisher": "CTI-Tim",
+      "source_type": "training-example",
+      "confidence": "verified-example",
+      "platforms": ["3-series", "4-series"],
+      "languages": ["simpl-sharp", "simpl-sharp-pro", "csharp"],
+      "topics": ["csharp", "training", "communications", "devices"],
+      "license": "not-detected",
+      "reuse_mode": "pattern-extraction"
+    },
+    {
+      "id": "pepperdash-essentials",
+      "name": "Essentials",
+      "url": "https://github.com/PepperDash/Essentials",
+      "publisher": "PepperDash",
+      "source_type": "mature-community",
+      "confidence": "community-proven",
+      "platforms": ["3-series", "4-series", "vc4"],
+      "languages": ["simpl-sharp-pro", "csharp"],
+      "topics": ["framework", "devices", "plugins", "configuration", "eisc"],
+      "license": "MIT",
+      "reuse_mode": "selective-code-ingestion"
+    },
+    {
+      "id": "pepperdash-core",
+      "name": "PepperDashCore",
+      "url": "https://github.com/PepperDash/PepperDashCore",
+      "publisher": "PepperDash",
+      "source_type": "mature-community",
+      "confidence": "community-proven",
+      "platforms": ["3-series", "4-series", "vc4"],
+      "languages": ["simpl-sharp", "simpl-sharp-pro", "csharp"],
+      "topics": ["tcp", "udp", "ssh", "http", "logging", "abstractions"],
+      "license": "MIT",
+      "reuse_mode": "selective-code-ingestion"
+    },
+    {
+      "id": "norgate-simpl-plus",
+      "name": "crestron-simpl-plus",
+      "url": "https://github.com/Norgate-AV/crestron-simpl-plus",
+      "publisher": "Norgate-AV",
+      "source_type": "developer-tooling",
+      "confidence": "community-proven",
+      "platforms": ["2-series", "3-series"],
+      "languages": ["simpl-plus", "typescript"],
+      "topics": ["vscode", "compiler", "simpl-plus"],
+      "license": "MIT",
+      "reuse_mode": "validation-dependency"
+    }
+  ]
+}
